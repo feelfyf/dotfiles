@@ -1,0 +1,373 @@
+# package.use# required by dev-python/gpep517-11::gentoo
+# required by dev-python/markupsafe-2.1.1::gentoo
+# required by dev-python/jinja-3.1.2::gentoo
+# required by sys-auth/pambase-20220214::gentoo
+# required by sys-apps/shadow-4.13-r1::gentoo[pam]
+# required by @system
+# required by @world (argument)
+>=dev-python/installer-0.6.0 python_targets_python3_10
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_r300,-video_cards_radeon,video_cards_radeonsi]
+# required by x11-base/xwayland-22.1.7::gentoo
+# required by kde-plasma/kwin-5.25.5::gentoo
+# required by kde-plasma/plasma-desktop-5.25.5-r2::gentoo
+# required by kde-plasma/plasma-meta-5.25.5::gentoo
+# required by kde-plasma/plasma-meta (argument)
+>=x11-libs/libdrm-2.4.114 video_cards_radeon
+# required by sys-boot/os-prober-1.81::gentoo
+# required by os-prober (argument)
+>=sys-boot/grub-2.06-r4 mount
+# required by app-shells/fish-3.4.0::gentoo
+# required by app-shells/fish (argument)
+>=dev-libs/libpcre2-10.40-r1 pcre32
+# required by media-sound/pulseaudio-daemon-16.1-r3::gentoo[alsa-plugin,alsa]
+# required by media-libs/libpulse-16.1-r1::gentoo
+# required by www-client/firefox-bin-108.0.2::gentoo[pulseaudio]
+# required by www-client/firefox-bin (argument)
+>=media-plugins/alsa-plugins-1.2.7.1 pulseaudio
+# required by x11-libs/libXfixes-6.0.0::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libX11-1.8.1 abi_x86_32
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXau-1.0.10 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libxcb-1.15-r1 abi_x86_32
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXdmcp-1.1.3-r1 abi_x86_32
+# required by x11-libs/libXdmcp-1.1.3-r1::gentoo
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/libbsd-0.11.7 abi_x86_32
+# required by dev-libs/libbsd-0.11.7::gentoo
+# required by x11-libs/libXdmcp-1.1.3-r1::gentoo
+# required by x11-libs/libxcb-1.15-r1::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=app-crypt/libmd-1.0.4 abi_x86_32
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=virtual/opengl-7.0-r2 abi_x86_32
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=media-libs/mesa-22.2.5 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/expat-2.5.0 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=media-libs/libglvnd-1.5.0 abi_x86_32
+# required by sys-devel/llvm-15.0.6-r1::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=sys-libs/zlib-1.2.13-r1 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[wayland]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/wayland-1.21.0 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libdrm-2.4.114 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libxshmfence-1.3.1 abi_x86_32
+# required by x11-libs/libXxf86vm-1.1.5::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXext-1.3.5 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXxf86vm-1.1.5 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXfixes-6.0.0 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[zstd]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=app-arch/zstd-1.5.2-r3 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=sys-devel/llvm-15.0.6-r1 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXrandr-1.5.2 abi_x86_32
+# required by x11-libs/libXrandr-1.5.2::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[X]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=x11-libs/libXrender-0.9.11 abi_x86_32
+# required by sys-devel/llvm-15.0.6-r1::gentoo[libffi]
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/libffi-3.4.4 abi_x86_32
+# required by sys-devel/llvm-15.0.6-r1::gentoo[ncurses]
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=sys-libs/ncurses-6.3_p20221203-r2 abi_x86_32
+# required by sys-devel/llvm-15.0.6-r1::gentoo[xml]
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/libxml2-2.10.3-r1 abi_x86_32
+# required by dev-libs/libxml2-2.10.3-r1::gentoo[icu]
+# required by sys-devel/llvm-15.0.6-r1::gentoo[xml]
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/icu-72.1 abi_x86_32
+# required by sys-libs/ncurses-6.3_p20221203-r2::gentoo[gpm]
+# required by sys-devel/llvm-15.0.6-r1::gentoo[ncurses]
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=sys-libs/gpm-1.20.7-r5 abi_x86_32
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=virtual/libelf-3-r1 abi_x86_32
+# required by virtual/libelf-3-r1::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=dev-libs/elfutils-0.188 abi_x86_32
+# required by dev-libs/elfutils-0.188::gentoo[bzip2]
+# required by virtual/libelf-3-r1::gentoo
+# required by media-libs/mesa-22.2.5::gentoo[-video_cards_r600,-video_cards_radeon,-opencl,llvm,video_cards_radeonsi]
+# required by virtual/opengl-7.0-r2::gentoo
+# required by games-util/steam-client-meta-0-r20221017::steam-overlay
+# required by games-util/steam-meta-0-r20220320::steam-overlay
+# required by games-util/steam-meta (argument)
+>=app-arch/bzip2-1.0.8-r4 abi_x86_32
+# required by www-client/librewolf-108.0.1_p1::librewolf[system-libvpx]
+# required by librewolf (argument)
+>=media-libs/libvpx-1.12.0-r1 postproc
+# required by app-containers/docker-20.10.22::gentoo
+# required by @selected
+# required by @world (argument)
+>=app-containers/containerd-1.6.14 btrfs
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/minitest-5.17.0 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/power_assert-2.0.3 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rake-13.0.6-r1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rbs-2.8.3 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rexml-3.2.5-r1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rss-0.2.9-r1 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/test-unit-3.5.7 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/typeprof-0.21.3 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/bundler-2.4.3 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/did_you_mean-1.6.3 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+>=dev-ruby/json-2.6.3 ruby_targets_ruby31
+# required by dev-lang/ruby-3.1.3::gentoo[rdoc]
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+>=dev-ruby/rdoc-6.5.0 ruby_targets_ruby31
+# required by dev-ruby/rexml-3.2.5-r1::gentoo[ruby_targets_ruby31,-test]
+# required by dev-ruby/rss-0.2.9-r1::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by dev-ruby/rbs-2.8.3::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/typeprof-0.21.3::gentoo[ruby_targets_ruby31]
+>=virtual/rubygems-17 ruby_targets_ruby31
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/racc-1.6.2::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-3.1.3::gentoo[rdoc]
+# required by dev-ruby/rbs-2.8.3::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/typeprof-0.21.3::gentoo[ruby_targets_ruby31]
+>=dev-ruby/rubygems-3.4.3 ruby_targets_ruby31
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.3::gentoo[rdoc]
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/racc-1.6.2::gentoo
+>=dev-ruby/psych-5.0.1 ruby_targets_ruby31
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.3::gentoo[rdoc]
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/racc-1.6.2::gentoo
+>=dev-ruby/kpeg-1.3.2 ruby_targets_ruby31
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.3::gentoo[rdoc]
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/rubygems-3.4.3::gentoo
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by dev-ruby/rbs-2.8.3::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/typeprof-0.21.3::gentoo[ruby_targets_ruby31]
+>=dev-ruby/racc-1.6.2 ruby_targets_ruby31
+# required by dev-ruby/psych-5.0.1::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/rdoc-6.5.0::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-3.1.3::gentoo[rdoc]
+# required by virtual/ruby-ssl-12::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/racc-1.6.2::gentoo
+>=dev-ruby/stringio-3.0.4 ruby_targets_ruby31
+# required by dev-ruby/rubygems-3.4.3::gentoo[ruby_targets_ruby31]
+# required by virtual/rubygems-17::gentoo[ruby_targets_ruby27]
+# required by dev-lang/ruby-2.7.7::gentoo
+# required by dev-ruby/rbs-2.8.3::gentoo[ruby_targets_ruby27]
+# required by dev-ruby/typeprof-0.21.3::gentoo[ruby_targets_ruby31]
+# required by dev-lang/ruby-3.1.3::gentoo
+# required by dev-ruby/rexml-3.2.5-r1::gentoo[ruby_targets_ruby31]
+# required by dev-ruby/rss-0.2.9-r1::gentoo[ruby_targets_ruby31]
+>=virtual/ruby-ssl-12 ruby_targets_ruby31
+# required by kde-apps/kdenlive-22.12.1::gentoo
+# required by kdenlive (argument)
+>=media-video/ffmpeg-4.4.3 libass
+# required by media-video/davinci-resolve-studio-18.1.2::inode64-overlay
+# required by davinci-resolve-studio (argument)
+>=dev-qt/qt3d-5.15.8 gamepad
+# required by media-video/davinci-resolve-studio-18.1.2::inode64-overlay[-bundled-libs]
+# required by davinci-resolve-studio (argument)
+>=net-dns/avahi-0.8-r7 mdnsresponder-compat
+# required by x11-libs/xapp-2.4.2::gentoo
+# required by app-backup/timeshift-22.11.1-r1::guru
+# required by timeshift (argument)
+>=dev-libs/libdbusmenu-16.04.0-r2 gtk3
+# required by www-client/chromium-110.0.5481.30::gentoo
+# required by chromium (argument)
+>=net-libs/nodejs-18.13.0 inspector
